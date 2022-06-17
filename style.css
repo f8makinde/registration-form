@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("bg-intro-desktop.jpeg");
+        font-size: 16px;
+        color: white;
+        width: 1440px;
+        margin: auto;
+        /* float: left; */
+        overflow: hidden;
+        position: absolute;
+        font-family: Poppins;
+}
+.about {
+   
+    margin-top: 25%;
+    text-align:left;
+    width: 40%;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 300px;
+    font-family: Poppins;
+}
+.about h1{
+line-height: 60px;
+font-family: Poppins;
+}
+.paragraph {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Poppins;
+}
+ .top-button {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border: 22px solid hsl(248, 32%, 49%);
+    border-radius: 12px;
+    margin-left: 55%;
+    width: 29%;
+    float: right;
+    margin-top: -410px;
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+    font-family: Poppins;
+    position: fixed;
+}
+main fieldset {
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: -17%;
+  margin-left: 55%;
+  /* margin-bottom: auto; */
+  padding: 30px;
+  position: fixed;
+  font-family: Poppins;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+div input{
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    font-family: Poppins;
+    font-weight: bolder;
+
+}
+.trail {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border: 0px solid hsl(246, 25%, 77%);
+    margin: 10px;
+    font-family: Poppins;
+    font-weight: bolder;   
+
+}
+:hover .trail{
+    cursor: pointer;
+   
+}
+
+.condition {
+    color: hsl(246, 25%, 77%);
+    font-family: Poppins;
+}
+.link {
+    text-decoration: none;
+    color: rgb(236, 124, 142);
+    font-family: Poppins;
+ 
+}
+
+
+/* for 144px width */
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("bg-intro-desktop.jpeg");
+        font-family: poppins;
+        font-size: 8px;
+        color: white;
+        width: 100%;
+        margin: auto;
+        /* float: left; */
+        overflow: hidden;
+        position: absolute;
+        font-family: Poppins;
+}
+.about {
+   
+    margin-top: 300px;
+    text-align:left;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 200px;
+    margin-left: 180px;
+    font-family: Poppins;
+}
+.about h1{
+line-height: 40px;
+font-family: Poppins;
+}
+.paragraph {
+
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Poppins;
+}
+ .top-button {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border: 10px solid hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-left: 55.6%;
+    width: 30%;
+    float: right;
+    margin-top: -350px;
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+    font-family: Poppins;
+    position: fixed;
+}
+main fieldset {
+  background-color: white;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -20%;
+  margin-left: 55%;
+  /* margin-bottom: auto; */
+  padding: 50px;
+  position: fixed;
+  font-family: Poppins;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+div input{
+    width: 85%;
+    padding:15px;
+    margin: 10px;
+    font-family: Poppins;
+    font-weight: bolder;
+
+}
+.trail {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 15px;
+    width: 90%;
+    border-radius: 4px;
+    border: 0px solid hsl(246, 25%, 77%);
+    margin-left: 9px;
+    font-family: Poppins;
+    font-weight: bolder;   
+
+}
+:hover .trail{
+    cursor: pointer;
+}
+
+.condition {
+    color: hsl(246, 25%, 77%);
+    font-family: Poppins;
+    font-size: 16px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(236, 124, 142);
+    font-family: Poppins;
+ 
+}
+  }
+
+
+  /* for 375px width */
+
+  @media only screen and (max-width: 375px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("bg-intro-mobile.jpeg");
+        font-family: poppins;
+      height: 130vh;
+      overflow-x : scroll;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      
+        font-size: 8px;
+        color: white;
+        width: 100%;
+        margin: auto;
+        font-family: Poppins;
+    
+}
+.about {
+   
+    margin-top: 80px;
+    text-align: center;
+    width: 220px;
+    font-size: 12px;
+    margin-left: 70px;
+    font-family: Poppins;
+}
+.about h1{
+line-height: 30px;
+font-family: Poppins;
+}
+.paragraph {
+    width: 300px;
+    margin-left: -40px;
+    margin-top: 18px;
+    font-size: 14px;
+    font-family: Poppins;
+}
+ .top-button {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border: 20px solid hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-left: 18px;
+    width: 325px;
+    float: right;
+    margin-top: 10px;
+  
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+    font-family: Poppins;
+    position: absolute;
+}
+.top-button p{
+    width: 250px;
+    margin: auto;
+}
+main fieldset {
+  background-color: white;
+  width: 82%;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: 22.5px;
+  /* margin-bottom: auto; */
+  padding: 10px;
+  position: absolute;
+  font-family: Poppins;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+div input{
+    width: 86%;
+    padding: 20px;
+    margin: 5px;
+    margin-left: 1px;
+    font-family: Poppins;
+    font-weight: bolder;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 4px;
+}
+.trail {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px;
+    width: 94%;
+    border-radius: 4px;
+    border: 0px solid hsl(246, 25%, 77%);
+    margin-left: 10px;
+    font-family: Poppins;
+    font-weight: bolder;   
+
+}
+h6{
+    width: 250px;
+    margin: auto;
+}
+:hover .trail{
+    cursor: pointer;
+}
+
+.condition {
+    color: hsl(246, 25%, 77%);
+    font-family: Poppins;
+    font-size: 16px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(236, 124, 142);
+    font-family: Poppins;
+ 
+}
+  }
